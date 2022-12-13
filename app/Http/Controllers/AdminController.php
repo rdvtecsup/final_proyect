@@ -9,8 +9,8 @@ use App\Models\Product;
 class AdminController extends Controller
 {
     public function index(){
-        // $users = User::all();
-        return view('admin.panel');
+        $users = User::all();
+        return view('admin.clientes_control',compact('users'));
     }
     public function show_user(){
         $users = User::all();

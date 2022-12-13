@@ -19,7 +19,7 @@
                             <!-- <th scope="col">DNI</th>
                             <th scope="col">Telefeno</th>
                             <th scope="col">Dirección</th> -->
-                            <th scope="col">Opciones</th>
+                            <!-- <th scope="col">Opciones</th> -->
                             </tr>
                         </thead>
                         <tbody>
@@ -32,14 +32,14 @@
                             <td>{{$user->telefono}}</td>
                             <td>{{$user->direccion}}</td> -->
                             <td>
-                            <div class="btn-group">	
+                            <!-- <div class="btn-group">	
                             <a  id='editar'  type="submit" class="btn btn-sm btn-outline-secondary" href="">Editar</a>
                             <form method="POST" action="">
                                 @csrf
                                 @method('DELETE')
                                 <button type="submit" class="btn btn-sm btn-outline-secondary" id="eliminar"  onclick="return confirm('¿Borrar?');">Eliminar</button>
                             </form>
-                            </div>  
+                            </div>   -->
                             </td>
                             </tr> 
                             @endforeach  

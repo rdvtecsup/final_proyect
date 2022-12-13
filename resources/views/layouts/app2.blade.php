@@ -40,9 +40,9 @@
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="{{route('lista_productos')}}">Productos</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" aria-current="page" href="{{route('lista_reservas')}}">Reservas</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="{{ route('home') }}"></a>
             </li>
